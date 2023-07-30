@@ -1,0 +1,3 @@
+Hi.
+This is a sample document which contains some words.
+The program will count the total number of words present in this file.
