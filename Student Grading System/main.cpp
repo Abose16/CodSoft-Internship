@@ -12,17 +12,17 @@ class StudentGrades
     string name;
     char grades[4];
     int numerics[4];
-    void putData();
+    void toNum();
 
     public:
-    void getData();
+    void putData();
     char maxGrade();
     char minGrade();
     char avgGrade();
     void displayFields();
 };
 
-void StudentGrades::putData()
+void StudentGrades::toNum()
 {
     for(int i=0;i<4;i++)
     {
@@ -37,7 +37,7 @@ void StudentGrades::putData()
     }
 }
 
-void StudentGrades::getData()
+void StudentGrades::putData()
 {
     fflush(stdin);
     cout<<"\nEnter student name: ";
@@ -54,7 +54,7 @@ void StudentGrades::getData()
     fflush(stdin);
     cout<<"English: ";
     cin>>grades[3];
-    putData();
+    toNum();
 }
 
 char StudentGrades::maxGrade()
@@ -136,7 +136,7 @@ int main()
     cin>>n;
     for(i=0;i<n;i++)
     {
-        student[i].getData();
+        student[i].putData();
     }
     cout<<endl;
     cout<<setw(20)<<"Name";

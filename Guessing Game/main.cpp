@@ -67,7 +67,7 @@ int main()
         }
         else
         {
-            if(abs(random-num)<20)
+            if(abs(random-num)<15)
             {
                 if(num<random)
                     printf("\nLow");
