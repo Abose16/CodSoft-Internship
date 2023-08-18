@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1692360077 source:d:\programming\codsoft internship\student grading system\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<iomanip>
+

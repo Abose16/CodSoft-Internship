@@ -15,7 +15,7 @@ class StudentGrades
     void toNum();
 
     public:
-    void putData();
+    void getData();
     char maxGrade();
     char minGrade();
     char avgGrade();
@@ -37,7 +37,7 @@ void StudentGrades::toNum()
     }
 }
 
-void StudentGrades::putData()
+void StudentGrades::getData()
 {
     fflush(stdin);
     cout<<"\nEnter student name: ";
@@ -136,7 +136,7 @@ int main()
     cin>>n;
     for(i=0;i<n;i++)
     {
-        student[i].putData();
+        student[i].getData();
     }
     cout<<endl;
     cout<<setw(20)<<"Name";

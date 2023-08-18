@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1690598122 source:d:\programming\codsoft internship\calculator\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+
